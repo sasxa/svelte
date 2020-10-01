@@ -1,1 +1,1 @@
-rm -rf public/build
+rm -rf dist
