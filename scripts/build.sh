@@ -1,5 +1,3 @@
 sh scripts/clean.sh
-mkdir -p dist/
-cp src/public/* dist/
 
-rollup -c
+NODE_ENV=development parcel build src/index.html --no-minify

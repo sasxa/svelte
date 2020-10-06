@@ -4,11 +4,15 @@
 
 <main>
 	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
 </main>
 
 <style lang="scss">
 	main {
-		padding: 0 2rem;
+		padding: 2rem;
+		background: pink;
+	}
+
+	h1 {
+		text-align: center;
 	}
 </style>
