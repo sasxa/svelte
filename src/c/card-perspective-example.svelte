@@ -1,13 +1,13 @@
 <script lang="ts">
-  import PerspectiveCard from "./card-perspective-hover.svelte";
+import PerspectiveCard from "./card-perspective-hover.svelte";
 </script>
 
 <PerspectiveCard rotate={5}>
   <div class="form">
-    <input type="text" id="xxx" />
-    <label for="xxx"> testing... </label>
+    <input type="text" id="test" />
+    <label for="test"> testing... </label>
 
-    <button>xxx</button>
+    <button>test</button>
   </div>
 </PerspectiveCard>
 <PerspectiveCard>
@@ -15,7 +15,7 @@
 </PerspectiveCard>
 
 <style lang="scss">
-  :global(.card) {
+:global(.card) {
   // width: 16rem;
   height: 9rem;
   // margin: 1rem;
@@ -40,10 +40,13 @@
     padding: 1rem;
     width: 100%;
     height: 100%;
+
+    > * {
+      margin-top: 1rem;
+    }
   }
   img {
     width: 100%;
   }
 }
-
 </style>
