@@ -31,12 +31,12 @@ const update = (e: MouseEvent) => {
   el.style.transform = `perspective(500px) rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
 };
 
-const start = (e: MouseEvent) => {
+const start = () => {
   el.classList.add("hover");
   el.style.transform = `perspective(500px) rotateX(0deg) rotateY(0deg)`;
 };
 
-const stop = (e: MouseEvent) => {
+const stop = () => {
   el.classList.remove("hover");
   el.style.transform = `perspective(500px) scale(1) rotateX(0deg) rotateY(0deg)`;
 };

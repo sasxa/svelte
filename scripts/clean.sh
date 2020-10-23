@@ -1,2 +1,2 @@
-# rm -rf .cache .parcel-cache
-rm -rf dist
+rm -rf .cache .parcel-cache
+rm -rf dist build

@@ -15,10 +15,3 @@ h1 {
   text-align: center;
 }
 </style>
-
-<main>
-  <h1>Hello {name}!</h1>
-
-  <div class="grid">
-  </div>
-</main>
